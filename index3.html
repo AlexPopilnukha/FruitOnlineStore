@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style3.css">
+</head>
+<body>
+<div id="container">
+    <nav id="tabs">
+        <div id="fruitShop">Fruit shop</div>
+        <div id="tab-1">Products</div>
+        <div id="tab-2">Basket</div>
+        <div id="tab-3">Admin</div>
+    </nav>
+    <div id="allProducts">All products</div>
+    <div id="containerForProducts">
+        <table class="table1">
+            <tr>
+                <td class="table1 tdCells">
+                    <div class="nameAllProducts" id="nameApple">Apple</div>
+                    <div><img src="img/apple.png" alt="" class="imgProducts" id="Apple"></div>
+                    <div id="manufactureApple" class="allManufacture">Ukraine</div>
+                    <div class="containerForPrice">
+                        <div id="priceApple" class="allPrices"></div>
+                        <input type="number" id="inputApple" class="inputsForQ">
+                        <input type="submit" value="Buy" id="buttonApple" class="allButtons">
+                    </div>
+                </td>
+                <td class="table1 tdCells">
+                    <div class="nameAllProducts" id="nameOrange">Orange</div>
+                    <div><img src="img/orange2.png" alt="" class="imgProducts" id="manufactureOrange"></div>
+                    <div id="manufacture" class="allManufacture">Florida</div>
+                    <div class="containerForPrice">
+                        <div id="priceOrange" class="allPrices"></div>
+                        <input type="number" id="inputOrange" class="inputsForQ">
+                        <input type="submit" value="Buy" id="buttonOrange" class="allButtons">
+                    </div>
+                </td>
+                <td class="table1 tdCells"><div class="nameAllProducts" id="namePineapple">Pineapple</div>
+                    <div><img src="img/pineapple-icon.png" alt="" class="imgProducts" id="Pineapple"></div>
+                    <div id="manufacturePineapple" class="allManufacture">California</div>
+                    <div class="containerForPrice">
+                        <div id="pricePineapple" class="allPrices"></div>
+                        <input type="number" id="inputPineapple" class="inputsForQ" >
+                        <input type="submit" value="Buy" id="buttonPineapple" class="allButtons">
+                    </div>
+                <td class="table1 tdCells">
+                <div class="nameAllProducts" id="namePear">Pear</div>
+                <div><img src="img/Pear-icon.png" alt="" class="imgProducts" id="Pear"></div>
+                <div id="manufacturePear" class="allManufacture">Moldova</div>
+                <div class="containerForPrice">
+                    <div id="pricePear" class="allPrices"></div>
+                    <input type="number" id="inputPear" class="inputsForQ" >
+                    <input type="submit" value="Buy" id="buttonPear" class="allButtons">
+                </div>
+                </td>
+            </tr>
+            <tr>
+                <td class="table1 tdCells">
+                    <div class="nameAllProducts" id="nameBanana">Banana</div>
+                    <div><img src="img/Banana-icon.png" alt="" class="imgProducts" id="Banana"></div>
+                    <div id="manufactureBanana" class="allManufacture">Florida</div>
+                    <div class="containerForPrice">
+                        <div id="priceBanana" class="allPrices"></div>
+                        <input type="number" id="inputBanana" class="inputsForQ" >
+                        <input type="submit" value="Buy" id="buttonBanana" class="allButtons">
+                    </div>
+                </td>
+                <td class="table1 tdCells">
+                    <div class="nameAllProducts" id="nameCherry">Cherry</div>
+                    <div><img src="img/Cherry-icon.png" alt="" class="imgProducts" id="Cherry"></div>
+                    <div id="manufactureCherry" class="allManufacture">Mexico</div>
+                    <div class="containerForPrice">
+                        <div id="priceCherry" class="allPrices"></div>
+                        <input type="number" id="inputCherry" class="inputsForQ" >
+                        <input type="submit" value="Buy" id="buttonCherry" class="allButtons">
+                    </div>
+                </td>
+                <td class="table1 tdCells">
+                    <div class="nameAllProducts" id="namePomegranate">Pomegranate</div>
+                    <div><img src="img/pomegranate-icon.png" alt="" class="imgProducts" id="Pomegranate"></div>
+                    <div id="manufacturePomegranate" class="allManufacture">Mexico</div>
+                    <div class="containerForPrice">
+                        <div id="pricePomegranate" class="allPrices"></div>
+                        <input type="number" id="inputPomegranate" class="inputsForQ" >
+                        <input type="submit" value="Buy" id="buttonPomegranate" class="allButtons">
+                    </div>
+                </td>
+                <td class="table1 tdCells">
+                    <div class="nameAllProducts" id="nameMango">Mango</div>
+                    <div><img src="img/Mango-icon.png" alt="" class="imgProducts" id="Mango"></div>
+                    <div id="manufactureMango" class="allManufacture">Florida</div>
+                    <div class="containerForPrice">
+                        <div id="priceMango" class="allPrices"></div>
+                        <input type="number" id="inputMango" class="inputsForQ" >
+                        <input type="submit" value="Buy" id="buttonMango" class="allButtons">
+                    </div>
+                </td>
+            </tr>
+        </table>
+        <img src="img/homefarm.png" alt="haha" id="homeFarmSign" />
+    </div>
+    <div id="MainContainerForBasket">
+        <div id="nameBasket">Basket</div>
+        <div id="containerForTableBasket">
+            <table id="table2id">
+                <tr>
+                    <td class="tdCells2">Product</td>
+                    <td class="tdCells2">Quantity</td>
+                    <td class="tdCells2">Price</td>
+                </tr>
+            </table>
+            <table id="tableTotalCells">
+                <tr>
+                    <td class="table2 tdCells2">Total</td>
+                    <td class="table2 tdCells2" id="totalPrice"></td>
+                </tr>
+            </table>
+            <div id="MainContainerForAdmin">
+                <div id="nameAdmin">Admin</div>
+                <div id="containerForTableAdmin">
+                    <table class="table3" id="table3id">
+                        <tr>
+                            <td class="table2 tdCells2">#</td>
+                            <td class="table2 tdCells2">Product</td>
+                            <td class="table2 tdCells2">Quantity</td>
+                            <td class="table2 tdCells2">Price</td>
+                            <td class="table2 tdCells2">Edit</td>
+                            <td class="table2 tdCells2">Remove</td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">1</td>
+                            <td class="table2 tdCells2">Apple</td>
+                            <td class="table2 tdCells2" id="appleAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="applePrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">2</td>
+                            <td class="table2 tdCells2">Orange</td>
+                            <td class="table2 tdCells2" id="orangeAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="orangePrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">3</td>
+                            <td class="table2 tdCells2">Pineapple</td>
+                            <td class="table2 tdCells2" id="pineappleAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="pineapplePrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">4</td>
+                            <td class="table2 tdCells2">Pear</td>
+                            <td class="table2 tdCells2" id="pearAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="pearPrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">5</td>
+                            <td class="table2 tdCells2">Banana</td>
+                            <td class="table2 tdCells2" id="bananaAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="bananaPrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">6</td>
+                            <td class="table2 tdCells2">Cherry</td>
+                            <td class="table2 tdCells2" id="cherryAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="cherryPrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">7</td>
+                            <td class="table2 tdCells2">Pomegranate</td>
+                            <td class="table2 tdCells2" id="pomegranateAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="pomegranatePrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                        <tr>
+                            <td class="table2 tdCells2">8</td>
+                            <td class="table2 tdCells2">Mango</td>
+                            <td class="table2 tdCells2" id="mangoAdminQuantity"></td>
+                            <td class="table2 tdCells2" id="mangoPrice"></td>
+                            <td class="table2 tdCells2"></td>
+                            <td class="table2 tdCells2"></td>
+                        </tr>
+                    </table>
+                    <input type="submit" value="New product" id="buttonNewProduct">
+                    <input type="submit" value="Submit" id="buttonAdminSubmit">
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<script src="js_index3.js"></script>
+</body>
+</html>

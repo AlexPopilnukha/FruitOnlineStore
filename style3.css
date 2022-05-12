@@ -1,0 +1,211 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background: ghostwhite;
+}
+#container{
+    display: flex;
+    flex-direction: column;
+    width: 1050px;
+    height: 1000px;
+    background: ghostwhite;
+
+}
+#tabs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 1050px;
+    height: 50px;
+}
+#tab-1{
+    width:200px;
+    height: 30px;
+    margin-left: 400px;
+    border: lightgray 2px solid;
+    padding-top: 15px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    color: #c7d92f;
+    box-shadow: 10px 5px 5px gray;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px grey;
+    text-align: center;
+}
+#tab-2{
+    width:200px;
+    height: 30px;
+    margin-left: 10px;
+    border: lightgray 2px solid;
+    padding-top: 15px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    color: #c7d92f;
+    box-shadow: 10px 5px 5px gray;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px grey;
+    text-align: center;
+ }
+#tab-3{
+    width:200px;
+    height: 30px;
+    margin-left: 10px;
+    border: lightgray 2px solid;
+    padding-top: 15px;
+    border-radius: 10px 10px 0 0;
+    cursor: pointer;
+    color: #c7d92f;
+    box-shadow: 10px 5px 5px gray;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+}
+#fruitShop{
+    width:200px;
+    height: 30px;
+    margin-left: 50px;
+    padding-top: 15px;
+    font-size: 30px;
+    color: #c7d92f;
+    font-weight: bold ;
+    text-shadow: 2px 1px 1px grey;
+}
+.table1{
+    border: 1px gray solid;
+    border-radius: 5px;
+
+}
+.tdCells{
+    margin-left: 40px;
+    width: 200px;
+    height: 300px;
+}
+#containerForProducts{
+    margin-left: 115px;
+    visibility: visible;
+}
+#allProducts{
+    margin-left: 420px;
+    padding: 20px;
+    visibility: visible;
+    font-size: 30px;
+    color: #c7d92f;
+    font-weight: bold ;
+    text-shadow: 2px 1px 1px grey;
+}
+.imgProducts{
+    width: 50px;
+    height: 50px;
+    padding: 4px;
+
+}
+.containerForPrice{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:140px;
+    margin-left: 25px;
+    padding: 4px;
+}
+.inputsForQ{
+    width: 60px;
+    padding: 2px;
+}
+.nameAllProducts{
+    padding: 4px;
+    color: #c7d92f;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+}
+.allManufacture{
+    padding: 4px;
+    color: #c7d92f;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+}
+.allPrices{
+    padding: 4px;
+    color: #c7d92f;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+
+}
+.allButtons{
+    color: #c7d92f;
+    font-weight: bold ;
+    text-shadow: 1px 1px 1px gray;
+    border: none;
+    cursor: pointer;
+    background: none;
+
+}
+.table2{
+    border: gray 1px solid;
+    margin-left: 200px;
+
+}
+.table3{
+    margin-left: 200px;
+}
+
+#table2id{
+    margin-left: 195px;
+}
+#table3id{
+    margin-right: 200px;
+
+}
+.tdCells2{
+    width: 200px;
+    border: 2px solid #c7d92f;
+    border-radius: 5px;
+}
+#tableTotalCells{
+    margin-left: 403px;
+    margin-top: 10px;
+}
+#nameBasket{
+    margin-left: 480px;
+}
+#nameAdmin{
+    margin-left: 480px;
+}
+#MainContainerForBasket{
+    visibility: hidden;
+}
+#MainContainerForAdmin{
+    visibility: hidden;
+    margin-bottom: 1000px;
+}
+td{
+    border: 2px solid #c7d92f;
+    border-radius: 5px;
+}
+tr{
+    border: 2px solid #c7d92f;
+    text-align: center;
+}
+#buttonNewProduct{
+    margin-top: 20px;
+    margin-left: 430px;
+    width: 100px;
+}
+#buttonAdminSubmit{
+    margin-left: 20px;
+    width: 100px;
+}
+#homeFarmSign{
+    height: 80px;
+    width:575px;
+    visibility: visible;
+    padding-top: 20px;
+    margin-left: 118px;
+
+}
+

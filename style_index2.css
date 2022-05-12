@@ -1,0 +1,341 @@
+body{
+    margin: 0;
+    display: flex;
+    /*justify-content: center;*/
+    min-height: 100vh;
+    background: #ffffff;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    /*border: green 1px solid;*/
+    margin-right: 100px;
+}
+#mainBox {
+    display: flex;
+    width: 700px;
+    height: 600px;
+    padding: 0;
+    margin-left: 100px;
+    margin-top: 200px;
+    /*border: red 1px solid;*/
+
+}
+#apple1{
+    width: 10px;
+    height: 10px;
+margin-left: -500px;
+    margin-top: 200px;
+}
+#apple2{
+    width: 10px;
+    height: 10px;
+    margin-left: -85px;
+    margin-top: 220px;
+}
+#apple3{
+    width: 10px;
+    height: 10px;
+    margin-left: 300px;
+    margin-top: 220px;
+}
+#apple4{
+    width: 10px;
+    height: 10px;
+    margin-left: 70px;
+    margin-top: 240px;
+}
+#apple5{
+    width: 10px;
+    height: 10px;
+    margin-left: -400px;
+    margin-top: 451px;
+}
+#apple6{
+    width: 10px;
+    height: 10px;
+    margin-left: 40px;
+    margin-top: 440px;
+}
+#apple7{
+    width: 10px;
+    height: 10px;
+    margin-left: 350px;
+    margin-top: 450px;
+}
+#apple8{
+    width: 10px;
+    height: 10px;
+    margin-left: -400px;
+    margin-top: 420px;
+}
+#apple9{
+    width: 10px;
+    height: 10px;
+    margin-left: 80px;
+    margin-top: 420px;
+}
+#apple10{
+    width: 10px;
+    height: 10px;
+    margin-left: 130px;
+    margin-top: 420px;;
+}
+#apple11{
+    width: 10px;
+    height: 10px;
+    margin-left: -300px;
+    margin-top: 390px;
+}
+#apple12{
+    width: 10px;
+    height: 10px;
+    margin-left: 200px;
+    margin-top: 390px;
+}
+#apple13{
+    width: 10px;
+    height: 10px;
+    margin-left: 200px;
+    margin-top: 390px;
+}
+#apple14{
+    width: 10px;
+    height: 10px;
+    margin-left: -300px;
+    margin-top: 360px;
+}
+#apple15{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 360px;
+}#apple16{
+     width: 10px;
+     height: 10px;
+     margin-left: 100px;
+     margin-top: 360px;
+ }
+#apple17{
+    width: 10px;
+    height: 10px;
+    margin-left: -280px;
+    margin-top: 330px;
+}
+#apple18{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 330px;
+}
+#apple19{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 330px;
+}
+#apple20{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 330px;
+}
+#apple21{
+    width: 10px;
+    height: 10px;
+    margin-left: -300px;
+    margin-top: 300px;
+}
+#apple22{
+    width: 10px;
+    height: 10px;
+    margin-left: 130px;
+    margin-top: 300px;
+}
+#apple23{
+    width: 10px;
+    height: 10px;
+    margin-left: 150px;
+    margin-top: 300px;
+}
+#apple24{
+    width: 10px;
+    height: 10px;
+    margin-left: -250px;
+    margin-top: 270px;
+}
+#apple25{
+    width: 10px;
+    height: 10px;
+    margin-left: 140px;
+    margin-top: 270px;
+}
+#apple26{
+    width: 10px;
+    height: 10px;
+    margin-left: 160px;
+    margin-top: 270px;
+}
+#apple27{
+    width: 10px;
+    height: 10px;
+    margin-left: -350px;
+    margin-top: 240px;
+}
+#apple28{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 240px;
+}
+#apple29{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 240px;
+}
+#apple30{
+    width: 10px;
+    height: 10px;
+    margin-left: -200px;
+    margin-top: 210px;
+}
+#apple31{
+    width: 10px;
+    height: 10px;
+    margin-left: 150px;
+    margin-top: 210px;
+}
+#apple32{
+    width: 10px;
+    height: 10px;
+    margin-left: -200px;
+    margin-top: 210px;
+}
+#apple33{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+#apple34{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 180px;
+}
+#apple35{
+    width: 10px;
+    height: 10px;
+    margin-left: -300px;
+    margin-top: 180px;
+}
+#apple36{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 150px;
+}
+#apple37{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 150px;;
+}
+#apple38{
+    width: 10px;
+    height: 10px;
+    margin-left: -200px;
+    margin-top: 150px;
+}
+#apple39{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+#apple40{
+    width: 10px;
+    height: 10px;
+    margin-left: 100px;
+    margin-top: 120px;
+}
+
+#grass{
+    width: 560px;
+    height: 30px;
+    margin-top: 560px;
+    margin-left: -373px;
+}
+
+#leftSideNav{
+    display: flex;
+    flex-direction: column;
+   /*background: #ffe6a5;*/
+    color: #c7d92f;
+    border-radius: 5px;
+    margin-top: 200px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 200px;
+}
+#signIn{
+    color:#c7d92f ;
+    padding-left: 10px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+}
+#createAccount{
+    color:#c7d92f ;
+    padding-left: 10px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+#createAccount2{
+    color:#c7d92f ;
+    padding-left: 10px;
+    border: none;
+    background: white;
+    font-size: 14px;
+    cursor: pointer;
+
+}
+.appleExc{
+    width: 8px;
+    height: 8px;
+}
+.textMessages{
+    font-size: 10px;
+    color: red;
+}
+#createButton{
+    color:#c7d92f ;
+    padding-left: 10px;
+
+}
+#saveButton{
+    color:#c7d92f ;
+    padding-left: 10px;
+}
+#tableCreateAccount{
+    display: flex;
+    flex-direction: column;
+    color: #c7d92f;
+    border-radius: 5px;
+    margin-top: 50px;
+    margin-right: 100px;
+    margin-left: 100px;
+    height: 200px;
+    visibility: hidden;
+}
+#homeFarmSign{
+    height: 80px;
+    width:575px;
+    margin-top: 789px;
+    margin-left: -660px;
+}
