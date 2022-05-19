@@ -80,16 +80,16 @@ us.onblur=function () {
         resultUserName = false
     }
     if (us.value.length === 0) {
-        userMessage.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Username is required'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessage.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Username is required'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (us.value.length >= 1 && us.value.length < 4) {
-        userMessage.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Min length is 4 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessage.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Min length is 4 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (us.value.length > 20) {
-        userMessage.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Max length is 20 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessage.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Max length is 20 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (us.value === 'test' || us.value === 'user' || us.value === 'admin') {
-        userMessage.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Username ‘admin’ or ‘user’or ‘test’ is not allowed'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessage.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Username ‘admin’ or ‘user’or ‘test’ is not allowed'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (us.value.length > 4 && us.value.length <= 20) {
         userMessage.innerHTML = ''
@@ -100,15 +100,15 @@ let password=document.querySelector('#password')
 let passwordMessage=document.querySelector('#passwordMessage')
 password.onblur=function (){
     if (password.value.length === 0) {
-        passwordMessage.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+'Password is required' +'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        passwordMessage.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+'Password is required' +'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         passwordResult=false
     }
     if (password.value.length>=1 && password.value.length<6 ){
-        passwordMessage.innerHTML='<img src="img/apple.png" alt="" class="appleExc">' +' '+'Min length is 6 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        passwordMessage.innerHTML='<img src="../img/apple.png" alt="" class="appleExc">' +' '+'Min length is 6 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         passwordResult=false
     }
     if (password.value.length>30 ){
-        passwordMessage.innerHTML='<img src="img/apple.png" alt="" class="appleExc">' +' '+'Max length is 30 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        passwordMessage.innerHTML='<img src="../img/apple.png" alt="" class="appleExc">' +' '+'Max length is 30 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         passwordResult=false
     }
     if (password.value.length>5&&password.value.length<=30){
@@ -128,16 +128,16 @@ usCreate.onblur=function () {
         resultUserNameCreate = false
     }
     if (usCreate.value.length === 0) {
-        userMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Username is required'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Username is required'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (usCreate.value.length >= 1 && usCreate.value.length < 4) {
-        userMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Min length is 4 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Min length is 4 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (usCreate.value.length > 20) {
-        userMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Max length is 20 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Max length is 20 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (usCreate.value === 'test' || usCreate.value === 'user' || usCreate.value === 'admin') {
-        userMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Username ‘admin’ or ‘user’or ‘test’ is not allowed'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        userMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Username ‘admin’ or ‘user’or ‘test’ is not allowed'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (usCreate.value.length > 4 && usCreate.value.length <= 20) {
         userMessageCreate.innerHTML = ''
@@ -149,15 +149,15 @@ let passwordCreate=document.querySelector('#passwordCreate')
 let passwordMessageCreate=document.querySelector('#passwordMessageCreate')
 passwordCreate.onblur=function (){
     if (passwordCreate.value.length === 0) {
-        passwordMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+'Password is required' +'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        passwordMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+'Password is required' +'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         passwordResultCreate=false
     }
     if (passwordCreate.value.length>=1 && passwordCreate.value.length<6 ){
-        passwordMessageCreate.innerHTML='<img src="img/apple.png" alt="" class="appleExc">' +' '+'Min length is 6 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        passwordMessageCreate.innerHTML='<img src="../img/apple.png" alt="" class="appleExc">' +' '+'Min length is 6 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         passwordResult=false
     }
     if (passwordCreate.value.length>30 ){
-        passwordMessageCreate.innerHTML='<img src="img/apple.png" alt="" class="appleExc">' +' '+'Max length is 30 characters'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        passwordMessageCreate.innerHTML='<img src="../img/apple.png" alt="" class="appleExc">' +' '+'Max length is 30 characters'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         passwordResult=false
     }
     if (passwordCreate.value.length>5&&passwordCreate.value.length<=30){
@@ -172,7 +172,7 @@ let resultEmail=2
 emailCreate.onblur=function (){
     if (emailCreate.value.length === 0) {
         resultEmail = false
-        emailMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Email is required'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        emailMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Email is required'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
     }
     if (emailCreate.value.length > 0) {
         let validateEmail = /^([A-Za-z0-9_\-.])+@([A-Za-z0-9_\-])+\.([A-Za-z]{2,4})$/
@@ -180,7 +180,7 @@ emailCreate.onblur=function (){
             emailMessageCreate.innerHTML = ''
             resultEmail = true
         } else {
-            emailMessageCreate.innerHTML ='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Enter a valid email address'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+            emailMessageCreate.innerHTML ='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Enter a valid email address'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
             resultEmail = false
         }
     }
@@ -190,11 +190,11 @@ let repeatPasswordMessageCreate=document.querySelector('#repeatPasswordMessageCr
 let repeatResult=2
 repeatPasswordCreate.onblur=function (){
     if (repeatPasswordCreate.value.length===0){
-        repeatPasswordMessageCreate.innerHTML='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'Repeat is required'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        repeatPasswordMessageCreate.innerHTML='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'Repeat is required'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         repeatResult=false
     }
     if (repeatPasswordCreate.value!==passwordCreate.value){
-        repeatPasswordMessageCreate.innerHTML='<img src="img/apple.png" alt="" class="appleExc">' +' '+ 'The passwords must match'+'  ' + '<img src="img/apple.png" alt="" class="appleExc">'
+        repeatPasswordMessageCreate.innerHTML='<img src="../img/apple.png" alt="" class="appleExc">' +' '+ 'The passwords must match'+'  ' + '<img src="../img/apple.png" alt="" class="appleExc">'
         repeatResult=false
     }
     if (repeatPasswordCreate.value===passwordCreate.value){
